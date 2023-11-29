@@ -2,7 +2,7 @@ def is_palindrome_recursive(word, low_index=0, high_index=None):
     if word == "":
         return False
 
-    if high_index == None:
+    if high_index is None:
         high_index = len(word) - 1
 
     if low_index >= high_index:
